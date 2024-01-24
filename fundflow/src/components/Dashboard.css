@@ -1,0 +1,14 @@
+.head {
+  min-height: 100vh;
+  padding: 50px 58px;
+  margin-left: 300px;
+  color: black;
+  width: 80vw;
+}
+
+.colrTheme {
+  margin-left: 60vw;
+  position: sticky;
+  bottom: 0;
+}
+

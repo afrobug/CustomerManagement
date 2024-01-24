@@ -4,18 +4,18 @@ import { BusCard } from "./BusCard";
 export const BusDetail = ({
     userID,
     img,
-  busName,
-  arrivalTime,
-  departureTime,
+    firstName,
+    email,
+    phone,
 }) => {
   return (
     <div>
       <BusCard
         userID={userID}
         img={img}
-        busName={busName}
-        arrivalTime={arrivalTime}
-        departureTime={departureTime}
+        firstName={firstName}
+        email={email}
+        phone={phone}
       />
     </div>
   );

@@ -48,7 +48,7 @@ const Sidebar = () => {
         <div className="sidebar-brand">
           <img
             className="sidebarLogo"
-            src="../../Images/ubuntu.png"
+            src="./ubuntu.png"
             alt="logo"
             width={25}
             height={25}

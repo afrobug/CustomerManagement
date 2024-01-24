@@ -28,8 +28,8 @@ const Table = () => {
           <div>
             {TableData.users?.length > 0 && (
               <div className="tableHeadings">
-                <label className="sortByLabels">USER ID</label>
                 <label className="sortByLabels">NAME</label>
+                <label className="sortByLabels">USER ID</label>
                 <label className="sortByLabels">EMAIL</label>
                 <label className="sortByLabels">PHONE</label>
               </div>
@@ -38,10 +38,10 @@ const Table = () => {
           {TableData.users?.map((detail, index) => (
             <BusDetail
               userID={index}
-              img = {detail.image}
-              busName={detail.firstName}
-              arrivalTime={detail.email}
-              departureTime={detail.phone}
+              img={detail.image}
+              firstName={detail.firstName}
+              email={detail.email}
+              phone={detail.phone}
             />
           ))}
         </div>

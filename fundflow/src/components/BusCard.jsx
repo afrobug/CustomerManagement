@@ -1,12 +1,6 @@
 import React from "react";
 
-export const BusCard = ({
-  userID,
-  img,
-  busName,
-  arrivalTime,
-  departureTime,
-}) => {
+export const BusCard = ({ userID, img, firstName, email, phone }) => {
   return (
     <div style={{ background: "white", width: "100%" }}>
       <div
@@ -27,11 +21,11 @@ export const BusCard = ({
             height={30}
             style={{ margin: "5px" }}
           ></img>
-          {busName}
+          {firstName}
         </div>
         <div style={{ flex: 1 }}>EMP{userID}</div>
-        <div style={{ flex: 1 }}>{arrivalTime}</div>
-        <div style={{ flex: 1 }}>{departureTime}</div>
+        <div style={{ flex: 1 }}>{email}</div>
+        <div style={{ flex: 1 }}>{phone}</div>
       </div>
     </div>
   );

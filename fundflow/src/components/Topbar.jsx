@@ -29,12 +29,12 @@ function Topbar() {
 
             <div className="img" style={{ marginLeft: "3vw" }}>
               <img
-                src="../../Images/notification.png"
+                src="./notification.png"
                 alt="notification"
                 style={{ borderRadius: "50%", width: "40px", height: "40px" }}
               />
               <img
-                src="../../Images/profileImage.jpeg"
+                src="./profileImage.jpeg"
                 alt="profile"
                 style={{
                   borderRadius: "50%",

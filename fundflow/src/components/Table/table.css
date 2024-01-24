@@ -1,3 +1,5 @@
 .tableHeadings {
   display: flex;
+  gap: 30rem;
+  font-size: 20px;
 }

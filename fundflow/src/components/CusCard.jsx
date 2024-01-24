@@ -1,6 +1,6 @@
 import React from "react";
 
-export const BusCard = ({ userID, img, firstName, email, phone }) => {
+export const CusCard = ({ userID, img, firstName, email, phone }) => {
   return (
     <div style={{ background: "white", width: "100%" }}>
       <div

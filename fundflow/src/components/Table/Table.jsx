@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "../Table/table.css";
-import { BusDetail } from "../BusDetail";
+import { CusDetail } from "../CusDetail";
 
 const Table = () => {
   const [TableData, setTableData] = useState([]);
@@ -36,7 +36,7 @@ const Table = () => {
             )}
           </div>
           {TableData.users?.map((detail, index) => (
-            <BusDetail
+            <CusDetail
               userID={index}
               img={detail.image}
               firstName={detail.firstName}

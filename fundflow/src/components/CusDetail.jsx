@@ -1,16 +1,10 @@
 import React from "react";
-import { BusCard } from "./BusCard";
+import { CusCard } from "./CusCard";
 
-export const BusDetail = ({
-    userID,
-    img,
-    firstName,
-    email,
-    phone,
-}) => {
+export const CusDetail = ({ userID, img, firstName, email, phone }) => {
   return (
     <div>
-      <BusCard
+      <CusCard
         userID={userID}
         img={img}
         firstName={firstName}

@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+#live link of the project 
+https://splendorous-speculoos-57748c.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:

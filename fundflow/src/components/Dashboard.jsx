@@ -80,6 +80,9 @@ const Dashboard = (props1) => {
           }}
         />
       </div>
+      <div>
+        react toggle
+      </div>
     </div>
   );
 };

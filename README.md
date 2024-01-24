@@ -3,6 +3,64 @@
 #live link of the project 
 https://splendorous-speculoos-57748c.netlify.app/
 
+Customer Management Project
+This project is a customer management application that retrieves data from an API, displays it in a table-like view with a sidebar, and utilizes modals for additional functionality. The project includes a navbar for easy navigation.
+
+Features
+API Integration: Fetches customer data from a remote API.
+Table View: Displays the customer data in a tabular format.
+Sorting: Allows users to sort the customer data based on various parameters.
+Sidebar: Provides additional functionality and navigation options.
+Modals: Utilizes modals for tasks such as adding new customers.
+Navbar: Easy navigation through the application.
+Getting Started
+Prerequisites
+Node.js and npm installed on your machine.
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/customer-management-project.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd customer-management-project
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The application will be accessible at http://localhost:3000.
+
+Usage
+Access the application through the provided URL.
+Explore the table view, sidebar, and navbar for managing customer data.
+Utilize sorting options to organize the customer data as needed.
+Interact with modals for tasks such as adding new customers.
+Contributing
+
+If you would like to contribute to the project, follow these steps:
+
+Fork the project.
+Create a new branch: git checkout -b feature/your-feature-name.
+Make your changes and commit them: git commit -m 'Add new feature'.
+Push to the branch: git push origin feature/your-feature-name.
+Submit a pull request.
+
+
+Acknowledgments
+Thanks to [API Provider] for providing the customer data.
+Feel free to customize the sections based on the specifics of your project. Include information on how to use the application, any configuration options, and acknowledgments for external services or libraries used in your project.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CusCard = ({ userID, img, firstName, email, phone }) => {
+export const CusCard = ({ userID, firstName, email, phone }) => {
   return (
     <div style={{ background: "white", width: "100%" }}>
       <div
@@ -14,13 +14,13 @@ export const CusCard = ({ userID, img, firstName, email, phone }) => {
         }}
       >
         <div style={{ flex: 1 }}>
-          <img
+          {/* <img
             src={img}
             alt="customerProfile"
             width={30}
             height={30}
             style={{ margin: "5px" }}
-          ></img>
+          ></img> */}
           {firstName}
         </div>
         <div style={{ flex: 1 }}>EMP{userID}</div>

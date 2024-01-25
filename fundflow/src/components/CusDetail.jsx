@@ -1,12 +1,12 @@
 import React from "react";
 import { CusCard } from "./CusCard";
 
-export const CusDetail = ({ userID, img, firstName, email, phone }) => {
+export const CusDetail = ({ userID, firstName, email, phone }) => {
   return (
     <div>
       <CusCard
         userID={userID}
-        img={img}
+        // img={img}
         firstName={firstName}
         email={email}
         phone={phone}

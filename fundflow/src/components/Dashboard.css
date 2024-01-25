@@ -6,9 +6,26 @@
   width: 80vw;
 }
 
-.colrTheme {
+/* .colrTheme {
   margin-left: 60vw;
   position: sticky;
+  display: inline-block;
   bottom: 0;
 }
 
+.DarkMode {
+  margin-left: 70vw;
+  position: sticky;
+  display: inline-block;
+  bottom: 0;
+  padding-bottom: 96px;
+} */
+
+.footer {
+  display: flex;
+  position: sticky;
+  margin-left: 60vw;
+  width: 25vw;
+  gap: 10px;
+  bottom: 0;
+}
